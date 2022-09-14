@@ -13,13 +13,13 @@ const tambahan = require("./lib/tambahan.js")
 const donasi = require("./lib/donasi.js");
 const info = require("./lib/info.js");
 /////////////////
-const BotName = 'REUZ BOT☄'; 
-const instagram = 'https://instagram.com/reuz.id'; 
-const telegram = 'https://t.me/reuzzz'; 
+const BotName = 'BOT ABJOEKY'; 
+const instagram = 'https://instagram.com/abjoeky'; 
+//const telegram = 'belum ada telegram'; 
 const kapanbotaktif = 'KETIKA HANYA DIAKTIFKAN'; 
-const youtube = 'https://www.youtube.com/c/reuz_id';
-//const grupch1 = 'belum ada grup'; 
-//const grupch2 = 'belum ada grup' ; 
+const youtube = 'https://youtube.com/channel/UC7W8gV2k63Jxp4C-ZoycJIQ';
+const GroupClBot = 'https://chat.whatsapp.com/I8OaqH5QPhd8PE3qn9XuUi'; 
+const GroupGb1 = 'https://chat.whatsapp.com/Bbk4fihqCAOHhHExvCXtV1'; 
 const
 {
    WAConnection,
@@ -32,7 +32,7 @@ const
    ReconnectMode,
    ProxyAgent,
    waChatKey,
-} = require("@adiwajshing/baileys");
+} = require("@abjoeky/baileys");
 var jam = moment().format("HH:mm");
 
 function foreach(arr, func)
@@ -68,7 +68,7 @@ conn.on('user-presence-update', json => console.log(json.id + ' presence is => '
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ig:@reuz.id`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ig:@abjoeky`)
 })
 
 conn.on('message-new', async(m) =>
